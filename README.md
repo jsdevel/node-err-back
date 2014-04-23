@@ -2,7 +2,8 @@
 > Async error handling for arguments.
 
 ## Why?
-Often you wish to validate function args before doing something expensive:
+Often you wish to validate function args before doing something expensive.  To remain
+100% async, you'd do something like this:
 ````javascript
 function myFn(path, cb){
   if(!path)return process.nextTick(cb,bind(null, new Error('path was falsey')));

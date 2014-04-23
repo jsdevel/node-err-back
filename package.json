@@ -1,7 +1,7 @@
 {
   "name": "err-back",
   "main": "lib/err-back.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Async error handling for arguments.",
   "author": "Joseph Spencer",
   "scripts": {

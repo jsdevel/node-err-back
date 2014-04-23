@@ -1,0 +1,31 @@
+{
+  "name": "err-back",
+  "main": "lib/err-back.js",
+  "version": "0.0.0",
+  "description": "Async error handling for arguments.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "jshint": "jshint lib && jshint --config .jshintrc-test test",
+    "mocha": "mocha -w",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "report": "istanbul report cobertura",
+    "test": "npm run jshint && npm run cover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-err-back.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-err-back/issues"
+  },
+  "devDependencies": {
+    "should": "~3.3.1",
+    "mocha": "~1.18.2",
+    "istanbul": "~0.2.7",
+    "jshint": "~2.5.0"
+  },
+  "dependencies": {}
+}
